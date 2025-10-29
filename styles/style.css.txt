@@ -3,40 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checklist Fasa 1 – Tentukan Tujuan Travel</title>
-  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+  <title>Checklist Ringkas Fasa 1 – Tentukan Tujuan Travel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 1cm;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: auto;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+    label {
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+    label span {
+      flex: 1;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Tablet (Portrait & Landscape) */
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+      body {
+        font-size: 17px;
+        margin: 0.8cm;
+      }
+      .wrapper {
+        max-width: 90%;
+        padding: 15px;
+      }
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+      }
+      button {
+        width: 100%;
+        font-size: 17px;
+        padding: 12px 20px;
+      }
+    }
+
+    /* Mobile (Small to Medium) */
+    @media screen and (max-width: 480px) {
+      body {
+        font-size: 18px;
+        margin: 0.5cm;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+      }
+      .wrapper {
+        padding: 10px;
+      }
+      button {
+        width: 100%;
+        font-size: 18px;
+        padding: 14px 20px;
+      }
+      li {
+        margin-bottom: 15px;
+      }
+    }
+
+    /* Extra Small Mobile */
+    @media screen and (max-width: 360px) {
+      body {
+        font-size: 16px;
+        margin: 0.3cm;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 1em;
+      }
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+      }
+      button {
+        font-size: 16px;
+        padding: 12px 15px;
+      }
+    }
+
+    /* Landscape Mode for Mobile/Tablet */
+    @media screen and (max-height: 500px) and (orientation: landscape) {
+      body {
+        margin: 0.3cm;
+      }
+      .wrapper {
+        max-width: 95%;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      button {
+        padding: 8px 15px;
+      }
+    }
+
+    /* Large Desktop */
+    @media screen and (min-width: 1200px) {
+      .wrapper {
+        max-width: 700px;
+      }
+      body {
+        font-size: 17px;
+      }
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: white;
+        margin: 0;
+      }
+      button {
+        display: none;
+      }
+      #pdf-status {
+        display: none !important;
+      }
+    }
+  </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
   <div class="wrapper" id="checklist">
-    <h2>Checklist Fasa 1 – Tentukan Tujuan Travel</h2>
+    <p class="fasa-label">Fasa 1: Tentukan Tujuan Travel – Sambungan</p>
+    <h2>1.5 – Checklist Ringkas Fasa 1 – Tentukan Tujuan Travel</h2>
     <p>Sebelum anda teruskan ke fasa seterusnya, semak semula keputusan dan niat anda. Gunakan checklist ini sebagai panduan ringkas untuk pastikan perancangan anda selari dengan emosi, realiti dan harapan sebenar.</p>
 
-    <hr>
-<h3>✅️ 1. Kenapa Saya Mahu Travel?</h3>
+    <h3>✅️ 1. Kenapa Saya Mahu Travel?</h3>
     <ul>
       <li><label><input type="checkbox"><span>Saya sudah jelas tentang sebab utama saya mahu travel — recharge, reward, reconnect, atau urusan kerja.</span></label></li>
       <li><label><input type="checkbox"><span>Saya tahu emosi yang saya harap dapat rasa sepanjang travel — tenang, lega, atau terinspirasi.</span></label></li>
       <li><label><input type="checkbox"><span>Saya sudah tulis niat travel saya secara ringkas — sebagai refleksi awal sebelum merancang destinasi.</span></label></li>
     </ul>
 
-    <hr>
-<h3>✅️ 2. Jenis Percutian &amp; Matlamat</h3>
+    <h3>✅️ 2. Jenis Percutian &amp; Matlamat</h3>
     <ul>
       <li><label><input type="checkbox"><span>Saya tahu jenis travel saya — solo, couple, family, atau business — dan saya sudah sesuaikan bajet serta aktiviti dengan gaya tersebut.</span></label></li>
       <li><label><input type="checkbox"><span>Saya sudah rujuk itinerary contoh yang sesuai dengan gaya travel saya — bukan sekadar ikut trend, tapi ikut keperluan sebenar.</span></label></li>
     </ul>
 
-    <hr>
-<h3>✅️ 3. Faktor Pemilihan Destinasi</h3>
+    <h3>✅️ 3. Faktor Pemilihan Destinasi</h3>
     <ul>
       <li><label><input type="checkbox"><span>Saya sudah pilih destinasi berdasarkan emosi, bajet dan aktiviti yang saya suka — bukan sekadar lokasi viral.</span></label></li>
       <li><label><input type="checkbox"><span>Saya sudah semak musim, cuaca dan kos sebenar — supaya pengalaman travel lebih selesa dan terkawal.</span></label></li>
     </ul>
 
-    <hr>
-<h3>✅️ 4. Bercuti atau Lari Dari Stress?</h3>
+    <h3>✅️ 4. Bercuti atau Lari Dari Stress?</h3>
     <ul>
       <li><label><input type="checkbox"><span>Saya sudah jujur dengan diri: adakah saya travel untuk healing atau melarikan diri?</span></label></li>
       <li><label><input type="checkbox"><span>Saya sudah pilih aktiviti yang beri ruang untuk refleksi dan rehat — bukan sekadar padat dengan itinerary.</span></label></li>

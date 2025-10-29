@@ -1,0 +1,143 @@
+body {
+  font-family: "Times New Roman", Georgia, Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 16px; /* Base font size - 1em = 16px */
+  line-height: 1.6;
+  margin: clamp(0.5rem, 2vw, 1rem);
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 37.5em; /* 600px / 16 = 37.5em */
+  margin: auto;
+  padding: 0 1em;
+}
+
+/* link style */
+a {
+  color: #4a90e2; /* Soft blue */
+  text-decoration: none;
+  text-decoration-color: #b3d4fc; /* Lembutkan garis bawah */
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #005fa3; /* Biru lebih dalam bila hover */
+  text-decoration-color: #005fa3;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.5em; /* 24px */
+  color: #333;
+  margin-bottom: 0.75em;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px */
+  color: #333;
+  margin-bottom: 0.625em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 2em 0;
+}
+
+li {
+  margin-bottom: 0.625em; /* 10px / 16 = 0.625em */
+  border: 0 none;
+}
+
+input[type="checkbox"] {
+  width: 1.375em; /* 18px / 16 = 1.125em */
+  height: 1.375em;
+  margin-right: 0.5em; /* 8px / 16 = 0.5em */
+  cursor: pointer;
+  flex-shrink: 0;
+  position: relative;
+  top: 0.5em; 
+  
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 0.5em;
+}
+
+label span {
+  flex: 1;
+}
+
+button {
+  margin-top: 1.25em; /* 20px / 16 = 1.25em */
+  padding: 0.625em 1.25em; /* 10px 20px */
+  font-size: 1em; /* 16px */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.3125em; /* 5px / 16 = 0.3125em */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-height: 2.75em; /* Better touch target */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 1.25em;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 22px; /* Base bertambah, semua em akan scale up */
+  }
+  
+  input[type="checkbox"] {
+    width: 1.375em; /* 22px / 18 = 1.222em */
+    height: 1.375em;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.833em 1.25em; /* 15px 22.5px at 18px base */
+  }
+}
+
+/* Very small screens */
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 20px;
+  }
+  
+  .wrapper {
+    padding: 0 0.75em;
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 40em;
+  }
+}
