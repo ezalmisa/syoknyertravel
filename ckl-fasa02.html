@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>2.6 – Checklist Ringkas Fasa 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 1cm;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: auto;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+    }
+    label {
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+    label span {
+      flex: 1;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+
+    @media screen and (max-width: 480px) {
+      body {
+        font-size: 18px;
+        margin: 0.5cm;
+      }
+      input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+      }
+      .wrapper {
+        padding: 10px;
+      }
+      button {
+        width: 100%;
+        font-size: 18px;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <div class="wrapper" id="checklist">
+    <p class="fasa-label">Fasa 2: Rancang Percutian – Sambungan</p>
+    <h2>2.6 – Checklist Ringkas Fasa 2: Rancang Percutian</h2>
+    <p>Fasa ini membantu anda menyusun percutian dengan lebih bijak dan selaras dengan keperluan sebenar—daripada pemilihan waktu hingga ke bajet dan risiko perjalanan. Gunakan checklist ini sebagai panduan awal untuk merancang dengan lebih tenang dan tersusun.</p>
+
+    <h3>✅ 1. Tetapkan Waktu Terbaik Nak Pergi</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Semak musim di destinasi pilihan (spring, summer, autumn, winter)</span></label></li>
+      <li><label><input type="checkbox"><span>Elakkan waktu peak season jika bajet terhad</span></label></li>
+      <li><label><input type="checkbox"><span>Kenal pasti aktiviti utama yang hanya sesuai pada musim tertentu</span></label></li>
+      <li><label><input type="checkbox"><span>Semak tarikh cuti umum dan sekolah di negara anda & destinasi</span></label></li>
+      <li><label><input type="checkbox"><span>Gunakan laman web seperti <a href="https://www.timeanddate.com/">Timeanddate.com</a> atau app seperti <a href="https://www.wunderground.com/">Weather Underground</a></span></label></li>
+    </ul>
+
+    <h3>✅ 2. Rancang Bajet Awal & Kenal Kos Tersembunyi</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Sediakan bajet asas: tiket, penginapan, makan, transport, aktiviti</span></label></li>
+      <li><label><input type="checkbox"><span>Tambah margin bajet untuk kos tersembunyi seperti: 👉 Caj bagasi, 👉 Insurans perjalanan, 👉 Caj tempat pelancongan, 👉 Tukaran mata wang & fee kad antarabangsa</span></label></li>
+      <li><label><input type="checkbox"><span>Guna app seperti <a href="https://www.spendee.com/">Spendee</a> atau <a href="http://moneylover.me/">Money Lover</a></span></label></li>
+    </ul>
+
+    <h3>✅ 3. Semak Cuti & Komitmen Kerja/Keluarga</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Semak baki cuti tahunan (jika bekerja)</span></label></li>
+      <li><label><input type="checkbox"><span>Rancang siapa akan uruskan kerja atau tanggungjawab sepanjang ketiadaan anda</span></label></li>
+      <li><label><input type="checkbox"><span>Berbincang awal dengan ahli keluarga atau pasangan</span></label></li>
+      <li><label><input type="checkbox"><span>Elakkan travel ketika musim penting kerja atau sekolah anak</span></label></li>
+    </ul>
+
+    <h3>✅ 4. Nilai Risiko Awal (Cuaca, Politik, Keselamatan)</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Semak status keselamatan destinasi dari laman seperti <a href="https://www.kln.gov.my/">Kementerian Luar Negeri Malaysia</a>, <a href="https://reopen.europa.eu/">Reopen EU</a>, <a href="https://travel.state.gov/">US Travel Advisory</a>, <a href="https://safetravel.ica.gov.sg/">SafeTravel Singapore</a></span></label></li>
+      <li><label><input type="checkbox"><span>Rancang plan B sekiranya berlaku: 👉 Cuaca ekstrem, 👉 Demonstrasi politik, 👉 Sekatan perjalanan</span></label></li>
+      <li><label><input type="checkbox"><span>Pertimbangkan beli travel insurance yang cover pembatalan & kecemasan</span></label></li>
+    </ul>
+
+    <h3>✅ 5. Sesuaikan Musim dengan Aktiviti</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Senaraikan aktiviti dan semak kesesuaian musim: 👉 Nak main salji? Pilih Dec–Feb 👉 Nak hiking? Elak musim sejuk/hujan</span></label></li>
+      <li><label><input type="checkbox"><span>Nilai cabaran mental & fizikal aktiviti tersebut (cuaca, keselesaan, stamina)</span></label></li>
+      <li><label><input type="checkbox"><span>Semak kos gear khas (sewa/pembelian)</span></label></li>
+      <li><label><input type="checkbox"><span>Pertimbangkan destinasi alternatif jika terlalu mahal atau ekstrem</span></label></li>
+    </ul>
+  </div>
+
+  <div class="wrapper">
+    <button onclick="downloadPDF()">💾 Simpan sebagai PDF</button>
+    <p id="pdf-status" style="margin-top:10px; color:#4CAF50; font-style:italic; display:none;">
+  ✅ PDF successfully saved!
+</p>
+  </div>
+
+  <script>
+    window.jsPDF = window.jspdf.jsPDF;
+
+    function downloadPDF() {
+      const element = document.getElementById('checklist');
+    
+      html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      }).then(canvas => {
+        const imgData = canvas.toDataURL('image/jpeg', 1.0);
+        const pdf = new jsPDF('p', 'mm', 'a4');
+    
+        const imgWidth = 210;
+        const pageHeight = 297;
+        const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        let heightLeft = imgHeight;
+        let position = 0;
+    
+        pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+    
+        while (heightLeft >= 0) {
+          position = heightLeft - imgHeight;
+          pdf.addPage();
+          pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+          heightLeft -= pageHeight;
+        }
+    
+        pdf.save('Checklist-Fasa-2.pdf');
+    
+        // 🌸 Indicator lembut muncul bawah butang
+        const status = document.getElementById('pdf-status');
+        status.style.display = 'block';
+        setTimeout(() => {
+          status.style.display = 'none';
+        }, 4000);
+      }).catch(error => {
+        console.error('Ralat PDF:', error);
+      });
+    }
+  </script>
+</body>
+</html>
