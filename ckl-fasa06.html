@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist Ringkas Fasa 6 – Semasa Travel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 1cm;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: auto;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+    }
+    label {
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+    label span {
+      flex: 1;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+
+    @media screen and (max-width: 480px) {
+      body {
+        font-size: 18px;
+        margin: 0.5cm;
+      }
+      input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+      }
+      .wrapper {
+        padding: 10px;
+      }
+      button {
+        width: 100%;
+        font-size: 18px;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <div class="wrapper" id="checklist">
+    <p class="fasa-label">Fasa 6: Semasa Travel – Sambungan</p>
+    <h2>6.9 – Checklist Ringkas Fasa 6: Semasa Travel</h2>
+    <p>Fasa ini memberi panduan praktikal untuk menghadapi hari-hari semasa travel—daripada suasana dalam flight hinggalah ke cabaran budaya, cuaca dan komunikasi. Gunakan checklist ini untuk membantu anda kekal tenang, fleksibel dan peka sepanjang perjalanan.</p>
+
+    <h3>✅ Flight Mode On: Nikmati Perjalanan Udara dengan Tenang</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Pastikan semua peranti dalam mode kapal terbang sebelum berlepas.</span></label></li>
+      <li><label><input type="checkbox"><span>Gunakan masa dalam flight untuk berehat atau tidur.</span></label></li>
+      <li><label><input type="checkbox"><span>Bawa earplug, neck pillow & eye mask untuk keselesaan maksimum.</span></label></li>
+      <li><label><input type="checkbox"><span>Minum air secukupnya untuk elak dehidrasi semasa penerbangan.</span></label></li>
+      <li><label><input type="checkbox"><span>Sediakan hiburan sendiri (buku, muzik, filem) jika flight tiada skrin.</span></label></li>
+      <li><label><input type="checkbox"><span>Ambil tahu maklumat waktu ketibaan dan proses ketibaan di destinasi.</span></label></li>
+    </ul>
+
+    <h3>✅ Prosedur Ketibaan di Destinasi: Dari Flight ke Luar Airport</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Ikut arahan crew & signage semasa keluar dari pesawat.</span></label></li>
+      <li><label><input type="checkbox"><span>Sediakan passport & borang ketibaan untuk pemeriksaan imigresen.</span></label></li>
+      <li><label><input type="checkbox"><span>Ambil bagasi di carousel yang betul berdasarkan paparan skrin.</span></label></li>
+      <li><label><input type="checkbox"><span>Elakkan terburu-buru, perhatikan keselamatan & barangan peribadi.</span></label></li>
+      <li><label><input type="checkbox"><span>Lepasi kastam tanpa bawa barang larangan atau melebihi kuota bebas cukai.</span></label></li>
+      <li><label><input type="checkbox"><span>Gunakan laluan yang sah & bertanya pada pegawai jika tidak pasti.</span></label></li>
+    </ul>
+
+    <h3>✅ Check-In Penginapan: Jangan Terlalu Yakin Semua Dah Okay</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Tunjukkan booking confirmation dengan jelas (cetak atau digital).</span></label></li>
+      <li><label><input type="checkbox"><span>Periksa fasiliti bilik sebaik tiba (lock pintu, paip, elektrik, dsb).</span></label></li>
+      <li><label><input type="checkbox"><span>Ambil gambar bilik semasa check-in sebagai rekod (jika perlu).</span></label></li>
+      <li><label><input type="checkbox"><span>Tanya tentang polisi penting: breakfast, check-out time, security.</span></label></li>
+      <li><label><input type="checkbox"><span>Simpan nombor telefon kaunter atau emergency contact.</span></label></li>
+      <li><label><input type="checkbox"><span>Pastikan lokasi hotel mudah diakses semula selepas keluar.</span></label></li>
+    </ul>
+
+    <h3>✅ Jaga Mood & Expectation (Reality vs Impian Instagram)</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Terima hakikat bahawa tidak semua akan ikut jangkaan.</span></label></li>
+      <li><label><input type="checkbox"><span>Jangan biar 'bad moment' rosakkan keseluruhan mood travel.</span></label></li>
+      <li><label><input type="checkbox"><span>Fokus pada pengalaman, bukan sekadar gambar cantik.</span></label></li>
+      <li><label><input type="checkbox"><span>Kurangkan scroll media sosial yang boleh ganggu persepsi.</span></label></li>
+      <li><label><input type="checkbox"><span>Ambil masa untuk menikmati apa yang sedang berlaku depan mata.</span></label></li>
+    </ul>
+
+    <h3>✅ Navigasi Tempat Asing, Bahasa & Budaya</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Guna aplikasi peta seperti Google Maps atau MAPS.ME.</span></label></li>
+      <li><label><input type="checkbox"><span>Pelajari frasa asas bahasa tempatan (hello, terima kasih, tolong).</span></label></li>
+      <li><label><input type="checkbox"><span>Hormati adat & budaya tempatan walau berbeza dengan kita.</span></label></li>
+      <li><label><input type="checkbox"><span>Guna apps translator jika perlu (Google Translate, Papago).</span></label></li>
+      <li><label><input type="checkbox"><span>Bawa kad hotel atau alamat bertulis jika sesat atau perlu bantuan.</span></label></li>
+    </ul>
+
+    <h3>✅ Menunaikan Solat Semasa Travel</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Muat turun apps waktu solat & kiblat sebelum berlepas (Muslim Pro, Athan, Qibla Finder).</span></label></li>
+      <li><label><input type="checkbox"><span>Bawa sejadah lipat, botol air kecil, dan pakaian solat yang sesuai.</span></label></li>
+      <li><label><input type="checkbox"><span>Belajar rukhsah musafir: jamak, qasar, tayammum — bukan untuk ambil mudah, tapi untuk berpandu.</span></label></li>
+      <li><label><input type="checkbox"><span>Cari ruang sunyi: taman, bilik hotel, belakang rak pasar raya — tempat tak sempurna pun boleh jadi tempat solat.</span></label></li>
+      <li><label><input type="checkbox"><span>Simpan nota ringkas hukum solat musafir dalam telefon — untuk rujukan cepat bila perlu.</span></label></li>
+    </ul>
+
+    <h3>✅ Mencari Makanan Halal Semasa Travel</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Muat turun aplikasi halal seperti HalalTrip, Zabihah, Muslim Pro dan HappyCow sebelum berlepas.</span></label></li>
+      <li><label><input type="checkbox"><span>Cari komuniti Muslim tempatan untuk info restoran halal yang tidak tersenarai dalam aplikasi.</span></label></li>
+      <li><label><input type="checkbox"><span>Kenali logo dan istilah halal dalam bahasa tempatan (contoh: ฮาลาล, 할랄, ハラール).</span></label></li>
+      <li><label><input type="checkbox"><span>Elakkan bertanya "No pork?" sahaja — tanya tentang pensijilan halal dan kaedah sembelihan.</span></label></li>
+      <li><label><input type="checkbox"><span>Pilih restoran Timur Tengah, makanan laut atau vegetarian jika tiada pilihan halal jelas.</span></label></li>
+      <li><label><input type="checkbox"><span>Semak nama restoran, tanda halal, dan latar pemilik untuk kenal pasti kesesuaian.</span></label></li>
+      <li><label><input type="checkbox"><span>Singgah masjid untuk dapatkan info tempatan dan peta kawasan Muslim-friendly.</span></label></li>
+      <li><label><input type="checkbox"><span>Bawa makanan ringan halal dari rumah seperti kurma, roti atau biskut.</span></label></li>
+      <li><label><input type="checkbox"><span>Guna Google Translate untuk semak label dan bertanya kepada staf restoran.</span></label></li>
+      <li><label><input type="checkbox"><span>Jangan segan bertanya — komunikasi yang jelas elakkan was-was dan rasa ragu.</span></label></li>
+    </ul>
+
+    <h3>✅ Cabaran Musim, Cuaca Tak Menentu</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Semak ramalan cuaca setiap pagi sebelum keluar.</span></label></li>
+      <li><label><input type="checkbox"><span>Sediakan pelindung hujan/panas seperti payung, sunblock & topi.</span></label></li>
+      <li><label><input type="checkbox"><span>Pakai pakaian berlapis (layered) jika travel ke negara sejuk.</span></label></li>
+      <li><label><input type="checkbox"><span>Jangan abaikan keselamatan jika berlaku ribut/petir/banjir.</span></label></li>
+      <li><label><input type="checkbox"><span>Tukar pelan aktiviti jika cuaca tidak mengizinkan – jangan paksa.</span></label></li>
+    </ul>
+
+    <h3>✅ Aktiviti Mengikut Jadual vs Spontan</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Rancang pelan asas harian, tapi sediakan ruang fleksibel.</span></label></li>
+      <li><label><input type="checkbox"><span>Jangan kejar semua tempat dalam satu hari.</span></label></li>
+      <li><label><input type="checkbox"><span>Sediakan buffer time antara aktiviti.</span></label></li>
+      <li><label><input type="checkbox"><span>Pilih aktiviti yang sesuai dengan stamina & bajet anda.</span></label></li>
+      <li><label><input type="checkbox"><span>Biarkan ada masa untuk teroka secara spontan – kadang lebih menyeronokkan.</span></label></li>
+    </ul>
+
+    <h3>✅ Slot Khas: Drama di Luar Negara & Reality Check</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Bersedia untuk hadapi situasi tak dijangka (scam, sesat, terlupa barang).</span></label></li>
+      <li><label><input type="checkbox"><span>Jangan cepat panik – tarik nafas & fikir rasional.</span></label></li>
+      <li><label><input type="checkbox"><span>Simpan dokumen penting dalam bag tangan, bukan bagasi check-in.</span></label></li>
+      <li><label><input type="checkbox"><span>Guna apps e-wallet yang selamat & ada backup cash.</span></label></li>
+      <li><label><input type="checkbox"><span>Hubungi pihak kedutaan jika berlaku kecemasan besar.</span></label></li>
+    </ul>
+  </div>
+
+  <div class="wrapper">
+    <button onclick="downloadPDF()">💾 Simpan sebagai PDF</button>
+    <p id="pdf-status" style="margin-top:10px; color:#4CAF50; font-style:italic; display:none;">
+  ✅ PDF successfully saved!
+</p>
+  </div>
+
+  <script>
+    window.jsPDF = window.jspdf.jsPDF;
+
+    function downloadPDF() {
+      const element = document.getElementById('checklist');
+    
+      html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      }).then(canvas => {
+        const imgData = canvas.toDataURL('image/jpeg', 1.0);
+        const pdf = new jsPDF('p', 'mm', 'a4');
+    
+        const imgWidth = 210;
+        const pageHeight = 297;
+        const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        let heightLeft = imgHeight;
+        let position = 0;
+    
+        pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+    
+        while (heightLeft >= 0) {
+          position = heightLeft - imgHeight;
+          pdf.addPage();
+          pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+          heightLeft -= pageHeight;
+        }
+    
+        pdf.save('Checklist-Fasa-6.pdf');
+    
+        // 🌸 Indicator lembut muncul bawah butang
+        const status = document.getElementById('pdf-status');
+        status.style.display = 'block';
+        setTimeout(() => {
+          status.style.display = 'none';
+        }, 4000);
+      }).catch(error => {
+        console.error('Ralat PDF:', error);
+      });
+    }
+  </script>
+</body>
+</html>

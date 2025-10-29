@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html lang="ms" xml:lang="ms" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+<title>7.5 – Checklist Ringkas Fasa 7 – Balik &amp; Refleksi</title>
+<link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body epub:type="bodymatter">
+<div class="wrapper">
+<p class="fasa-label">Fasa 7: Balik &amp; Refleksi – Sambungan</p>
+<h2 epub:type="subchapter">7.5 – Checklist Ringkas Fasa 7 – Balik &amp; Refleksi</h2>
+<p>Fasa ini membantu anda mengurus kepulangan dengan lebih tenang dan bermakna—daripada rekalibrasi rutin hingga ke refleksi peribadi. Gunakan checklist ini untuk menyusun semula emosi, kenangan dan pelajaran yang dibawa pulang dari perjalanan.</p>
+<h3>✅ Kembali ke Rumah dari Travel dengan Tenang</h3>
+<ul class="square-checklist">
+<li> Ambil 1–2 hari untuk rehat sebelum kembali bekerja atau ke rutin biasa</li>
+<li> Asingkan barangan rosak, kenangan &amp; pakaian kotor sebaik tiba</li>
+<li> Keluarkan makanan, cecair &amp; item cepat rosak dari beg segera</li>
+<li> Minum air secukupnya dan makan makanan berkhasiat untuk pulih cepat</li>
+<li> Elak tidur siang terlalu lama – sesuaikan semula waktu tidur tempatan</li>
+<li> Guna checklist untuk pastikan tiada barang tertinggal dalam beg</li>
+<li> Urus bagasi sedikit demi sedikit – jangan biarkan terlalu lama bersepah</li>
+<li> Simpan semua cenderahati &amp; resit di satu tempat khas</li>
+<li> Jangan terus mula kerja berat – beri ruang untuk badan &amp; minda rekalibrasi</li>
+</ul>
+<h3>✅ Tulis Travel Journal / Kongsi Pengalaman</h3>
+<ul class="square-checklist">
+<li> Catat pengalaman &amp; emosi dalam travel journal – walau sebaris ayat pun cukup</li>
+<li> Guna format mudah: Tarikh + Lokasi + Perasaan + Highlight</li>
+<li> Gunakan apps seperti Evernote, Day One, Journey untuk catatan digital</li>
+<li> Simpan gambar bersama catatan untuk kenangan lebih kuat</li>
+<li> Kongsi pengalaman bermanfaat di platform yang sesuai (blog, IG, TikTok)</li>
+<li> Masukkan juga insiden pelik atau kesilapan – lebih manusiawi &amp; relatable</li>
+<li> Jangan tunggu lama untuk tulis – catat ketika memori masih segar</li>
+<li> Jangan ‘filter’ semua benda indah saja – cerita real lebih dihargai</li>
+<li> Jangan bandingkan journal anda dengan orang lain – tulis ikut gaya sendiri</li>
+</ul>
+<h3>✅ Apa Anda Pelajari Dari Trip Ini?</h3>
+<ul class="square-checklist">
+<li> Ambil masa beberapa hari untuk buat refleksi selepas trip</li>
+<li> Tanya diri: Apa yang anda suka? Apa yang streskan? Apa yang anda nak ubah?</li>
+<li> Gunakan template refleksi dalam Notion, Google Docs atau apps journal</li>
+<li> Tonton semula gambar/video sambil catat emosi &amp; pelajaran tersembunyi</li>
+<li> Catat pengalaman dari kesilapan, cabaran &amp; momen tak dirancang</li>
+<li> Simpan nota refleksi atau rakaman suara sebagai kenangan diri</li>
+<li> Gunakan pelajaran ini untuk rancang gaya travel lebih sesuai untuk masa depan</li>
+<li> Kongsi insight sebenar anda – bukan sekadar destinasi, tapi nilai yang dipelajari</li>
+</ul>
+<h3>✅ Next Trip Planning</h3>
+<ul class="square-checklist">
+<li> Simpan semua info &amp; dokumen trip lepas dalam satu fail digital (Drive/Notion)</li>
+<li> Rancang trip baru berdasarkan refleksi – bukan sebab FOMO atau promosi</li>
+<li> Tanya diri: Apa yang anda benar-benar mahu rasa dalam trip seterusnya?</li>
+<li> Guna platform seperti Pinterest, blog atau YouTube untuk inspirasi destinasi</li>
+<li> Semak waktu terbaik untuk travel melalui BestTimeToVisit atau TimeandDate</li>
+<li> Sediakan tabung khas ‘Next Trip’ guna app kewangan seperti Spendee</li>
+<li> Jangan ulang kesilapan lama – rujuk semula lesson learned dari trip sebelum</li>
+<li> Elakkan ikut trend atau gaya influencer – fokus pada minat &amp; kemampuan sendiri</li>
+<li> Rancang ikut musim &amp; keutamaan sebenar anda</li>
+</ul>
+</div>
+</body>
+</html>

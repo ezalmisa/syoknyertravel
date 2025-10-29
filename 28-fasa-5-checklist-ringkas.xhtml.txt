@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html lang="ms" xml:lang="ms" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+<title>5.5 – Checklist Ringkas Fasa 5: Hari Nak Bertolak</title>
+<link href="../styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body epub:type="bodymatter">
+<div class="wrapper">
+<p class="fasa-label">Fasa 5: Hari Nak Bertolak – Sambungan</p>
+<h2 epub:type="subchapter">5.5 – Checklist Ringkas Fasa 5: Hari Nak Bertolak</h2>
+<p>Fasa ini memberi tumpuan kepada persiapan pada hari berlepas—dari rutin pagi hingga ke suasana di airport. Gunakan checklist ini untuk membantu anda kekal tenang, tersusun dan bersedia menghadapi sebarang kemungkinan sebelum menaiki penerbangan.</p>
+<h3 epub:type="list">✅ Urus Masa &amp; Airport Routine</h3>
+<ul class="square-checklist">
+<li> Set penggera awal pagi (2x) untuk elak terlajak tidur.</li>
+<li> Rancang masa keluar rumah sekurang-kurangnya 4 jam sebelum waktu boarding.</li>
+<li> Simpan dokumen penting (passport, boarding pass, travel insurance) dalam pouch khas.</li>
+<li> Pastikan bagasi tidak melebihi berat maksimum.</li>
+<li> Ketahui lokasi drop luggage &amp; pintu gate (rujuk boarding pass &amp; airport display board).</li>
+<li> Aktifkan mobile check-in jika tersedia (24–48 jam sebelum penerbangan).</li>
+</ul>
+<h3 epub:type="list">✅ Transit, Terminal &amp; Delay Anxiety</h3>
+<ul class="square-checklist">
+<li> Semak tempoh masa antara connecting flight/transit (pastikan mencukupi).</li>
+<li> Simpan screenshot itinerary &amp; boarding pass kedua dalam telefon.</li>
+<li> Bawa powerbank &amp; charger untuk elak stres semasa delay.</li>
+<li> Simpan ubat penting &amp; barangan keperluan dalam hand-carry.</li>
+<li> Ketahui lokasi flight information display board dalam terminal.</li>
+<li> Sediakan backup plan untuk delay (makanan ringan, aktiviti santai).</li>
+</ul>
+<h3 epub:type="list">✅ Drama Companion</h3>
+<ul class="square-checklist">
+<li> Ambil tangkapan skrin nombor gate semasa semak awal.</li>
+<li> Semak semula nombor gate di papan paparan dalam terminal sebelum bergerak.</li>
+<li> Kekal tenang &amp; susun strategi komunikasi bersama travel companion.</li>
+<li> Gunakan nada suara yang tidak menyalahkan ketika berlaku salah faham.</li>
+</ul>
+<h3 epub:type="list">✅ Real Talk: Airport</h3>
+<ul class="square-checklist">
+<li> Kenalpasti lokasi surau, tandas, tempat makan &amp; tempat menunggu sebelum bergerak jauh dari gate.</li>
+<li> Jaga beg &amp; barang peribadi sepanjang berada dalam airport.</li>
+<li> Jangan over-browsing atau leka shopping hingga terlupa masa boarding.</li>
+<li> Guna masa menunggu untuk rehat, refresh, atau update keluarga.</li>
+<li> Sediakan senarai kecil keperluan penting untuk dibeli (jika perlu beli last minute).</li>
+</ul>
+</div>
+</body>
+</html>
