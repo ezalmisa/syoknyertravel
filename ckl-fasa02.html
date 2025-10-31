@@ -51,13 +51,28 @@
       <li><label><input type="checkbox"><span>Semak kos gear khas (sewa/pembelian)</span></label></li>
       <li><label><input type="checkbox"><span>Pertimbangkan destinasi alternatif jika terlalu mahal atau ekstrem</span></label></li>
     </ul>
+<hr>
+    <!-- SECTION BARU -->
+    <h3>✅ 6. Rancang Itinerary untuk Travel yang Tenang dan Bermakna</h3>
+    <ul>
+      <li><label><input type="checkbox"><span>Tentukan objektif utama travel (rehat, healing, family time, adventure, atau discovery)</span></label></li>
+      <li><label><input type="checkbox"><span>Bahagikan itinerary mengikut hari, seimbangkan antara aktiviti & rehat</span></label></li>
+      <li><label><input type="checkbox"><span>Sertakan waktu fleksibel untuk aktiviti spontan atau cuaca tidak menentu</span></label></li>
+      <li><label><input type="checkbox"><span>Pastikan ada masa khas untuk makan, solat, dan bonding dengan ahli keluarga</span></label></li>
+      <li><label><input type="checkbox"><span>Tandakan lokasi penting dalam peta offline (Google Maps, Maps.me)</span></label></li>
+      <li><label><input type="checkbox"><span>Rancang laluan logik – elak ulang-alik jauh antara aktiviti</span></label></li>
+      <li><label><input type="checkbox"><span>Semak waktu operasi tempat lawatan & buat tempahan awal jika perlu</span></label></li>
+      <li><label><input type="checkbox"><span>Masukkan aktiviti ringan pada hari terakhir supaya tak terlalu penat</span></label></li>
+      <li><label><input type="checkbox"><span>Cetak salinan ringkas itinerary atau simpan versi digital dalam telefon</span></label></li>
+      <li><label><input type="checkbox"><span>Simpan satu versi backup di cloud (Google Drive / Dropbox)</span></label></li>
+    </ul>
   </div>
 
   <div class="wrapper">
     <button onclick="downloadPDF()">💾 Simpan sebagai PDF</button>
     <p id="pdf-status" style="margin-top:10px; color:#4CAF50; font-style:italic; display:none;">
-  ✅ PDF successfully saved!
-</p>
+      ✅ PDF successfully saved!
+    </p>
   </div>
 
   <script>
@@ -92,7 +107,6 @@
     
         pdf.save('Checklist-Fasa-2.pdf');
     
-        // 🌸 Indicator lembut muncul bawah butang
         const status = document.getElementById('pdf-status');
         status.style.display = 'block';
         setTimeout(() => {
